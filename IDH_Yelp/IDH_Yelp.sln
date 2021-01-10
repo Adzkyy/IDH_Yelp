@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "IDH_Yelp", "IDH_Yelp\IDH_Yelp.dtproj", "{12EFED66-2193-4C5E-AF81-9ADC529A9E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Development|Default.ActiveCfg = Development
+		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34E01BBB-E840-44B7-AB8E-3362500027CB}
+	EndGlobalSection
+EndGlobal
