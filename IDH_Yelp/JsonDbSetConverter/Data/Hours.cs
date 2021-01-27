@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace JsonDbSetConverter.Data
 {
     public class Hours
     {
+        [Key]
+        public int Id { get; set; }
         public string Monday { get; set; }
         public string Tuesday { get; set; }
         public string Wednesday { get; set; }

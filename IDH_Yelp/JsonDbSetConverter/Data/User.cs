@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace JsonDbSetConverter.Data
 {
     public class User
     {
+        [Key] 
+        public int Id { get; set; }
         public string user_id { get; set; }
+        [JsonIgnore]
         public string name { get; set; }
         public int review_count { get; set; }
         public string yelping_since { get; set; }
@@ -16,6 +16,7 @@ namespace JsonDbSetConverter.Data
         public int funny { get; set; }
         public int cool { get; set; }
         public string elite { get; set; }
+        [JsonIgnore]
         public string friends { get; set; }
         public int fans { get; set; }
         public double average_stars { get; set; }

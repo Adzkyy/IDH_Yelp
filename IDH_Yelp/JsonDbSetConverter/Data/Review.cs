@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace JsonDbSetConverter.Data
 {
     public class Review
     {
+        [Key]
+        public int Id { get; set; }
         public string review_id { get; set; }
+        [JsonIgnore]
         public string user_id { get; set; }
         public string business_id { get; set; }
         public int stars { get; set; }
