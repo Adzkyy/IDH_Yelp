@@ -5,7 +5,7 @@ using System.IO;
 
 namespace JsonDbSetConverter.Deserialization
 {
-    public class ReviewDeserializator
+    public static class ReviewDeserializator
     {
         public static void DeserializeFromPath(string table, YelpContext context)
         {

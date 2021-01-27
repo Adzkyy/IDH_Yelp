@@ -5,7 +5,7 @@ using System.IO;
 
 namespace JsonDbSetConverter.Deserialization
 {
-    public class TipDeserializator
+    public static class TipDeserializator
     {
         public static void DeserializeFromPath(string table, YelpContext context)
         {
