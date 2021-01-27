@@ -68,6 +68,7 @@
     <Compile Include="Deserialization\CheckInDeserializator.cs" />
     <Compile Include="Deserialization\ReviewDeserializator.cs" />
     <Compile Include="Deserialization\TipDeserializator.cs" />
+    <Compile Include="Helpers\CursorHelper.cs" />
     <Compile Include="Migrations\202101271856322_InitV2.cs" />
     <Compile Include="Migrations\202101271856322_InitV2.designer.cs">
       <DependentUpon>202101271856322_InitV2.cs</DependentUpon>
