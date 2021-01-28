@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "IDH_Yelp", "IDH_Yelp\IDH_Yelp.dtproj", "{12EFED66-2193-4C5E-AF81-9ADC529A9E94}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvDbSetConverter", "CsvDbSetConverter\CsvDbSetConverter.csproj", "{E2AC056F-344C-4A6D-9918-CF6904EF69F5}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Kubica", "Kubica\Kubica.dtproj", "{B201540C-5AC2-4565-8997-3FBBB4623348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,18 +14,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Debug|Any CPU.ActiveCfg = Development
-		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Debug|Any CPU.Build.0 = Development
-		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Development|Any CPU.ActiveCfg = Development
-		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Development|Any CPU.Build.0 = Development
-		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Release|Any CPU.ActiveCfg = Development
-		{12EFED66-2193-4C5E-AF81-9ADC529A9E94}.Release|Any CPU.Build.0 = Development
 		{E2AC056F-344C-4A6D-9918-CF6904EF69F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2AC056F-344C-4A6D-9918-CF6904EF69F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AC056F-344C-4A6D-9918-CF6904EF69F5}.Development|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2AC056F-344C-4A6D-9918-CF6904EF69F5}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{E2AC056F-344C-4A6D-9918-CF6904EF69F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AC056F-344C-4A6D-9918-CF6904EF69F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B201540C-5AC2-4565-8997-3FBBB4623348}.Debug|Any CPU.ActiveCfg = Development
+		{B201540C-5AC2-4565-8997-3FBBB4623348}.Debug|Any CPU.Build.0 = Development
+		{B201540C-5AC2-4565-8997-3FBBB4623348}.Development|Any CPU.ActiveCfg = Development
+		{B201540C-5AC2-4565-8997-3FBBB4623348}.Development|Any CPU.Build.0 = Development
+		{B201540C-5AC2-4565-8997-3FBBB4623348}.Release|Any CPU.ActiveCfg = Development
+		{B201540C-5AC2-4565-8997-3FBBB4623348}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
