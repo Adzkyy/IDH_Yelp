@@ -17,7 +17,7 @@ namespace CsvDbSetConverter
     {
         static void Main(string[] args)
         {
-            KubicaContext kubicaContext = new KubicaContext();
+            //KubicaContext kubicaContext = new KubicaContext();
 
             //var records1 = RecordsReader<Circuits>.GetRecords("circuits", new CircuitsClassMap());
             //kubicaContext.Circuits.AddRange(records);
@@ -65,22 +65,22 @@ namespace CsvDbSetConverter
             //kubicaContext.SaveChanges();
             //Console.WriteLine("Races");
 
-            var records11 = RecordsReader<Result>.GetRecords("results", new ResultClassMap());
-            kubicaContext.Results.AddRange(records11);
-            kubicaContext.SaveChanges();
-            Console.WriteLine("Results");
+            //var records11 = RecordsReader<Result>.GetRecords("results", new ResultClassMap());
+            //kubicaContext.Results.AddRange(records11);
+            //kubicaContext.SaveChanges();
+            //Console.WriteLine("Results");
 
-            var records12 = RecordsReader<Seasons>.GetRecords("seasons", new SeasonsClassMap());
-            kubicaContext.Seasons.AddRange(records12);
-            kubicaContext.SaveChanges();
-            Console.WriteLine("Seasons");
+            //var records12 = RecordsReader<Seasons>.GetRecords("seasons", new SeasonsClassMap());
+            //kubicaContext.Seasons.AddRange(records12);
+            //kubicaContext.SaveChanges();
+            //Console.WriteLine("Seasons");
 
-            var records13 = RecordsReader<Status>.GetRecords("status", new StatusClassMap());
-            kubicaContext.Status.AddRange(records13);
-            kubicaContext.SaveChanges();
-            Console.WriteLine("Status");
+            //var records13 = RecordsReader<Status>.GetRecords("status", new StatusClassMap());
+            //kubicaContext.Status.AddRange(records13);
+            //kubicaContext.SaveChanges();
+            //Console.WriteLine("Status");
 
-            kubicaContext.SaveChanges();
+            //kubicaContext.SaveChanges();
         }
     }
 }
