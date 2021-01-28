@@ -5,8 +5,7 @@ namespace JsonDbSetConverter.Data
 {
     public class User
     {
-        [Key] 
-        public int Id { get; set; }
+        [Key]
         public string user_id { get; set; }
         [JsonIgnore]
         public string name { get; set; }

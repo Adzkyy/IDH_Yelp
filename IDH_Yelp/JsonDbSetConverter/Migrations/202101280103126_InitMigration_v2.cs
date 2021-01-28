@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitMigration_v1 : DbMigration
+    public partial class InitMigration_v2 : DbMigration
     {
         public override void Up()
         {
@@ -25,8 +25,7 @@
                 "dbo.Business",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
-                        business_id = c.String(),
+                        business_id = c.String(nullable: false, maxLength: 128),
                         name = c.String(),
                         address = c.String(),
                         city = c.String(),
@@ -41,7 +40,7 @@
                         attributes_Id = c.Int(),
                         hours_Id = c.Int(),
                     })
-                .PrimaryKey(t => t.Id)
+                .PrimaryKey(t => t.business_id)
                 .ForeignKey("dbo.Attributes", t => t.attributes_Id)
                 .ForeignKey("dbo.Hours", t => t.hours_Id)
                 .Index(t => t.attributes_Id)
@@ -76,8 +75,7 @@
                 "dbo.Review",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
-                        review_id = c.String(),
+                        review_id = c.String(nullable: false, maxLength: 128),
                         user_id = c.String(),
                         business_id = c.String(),
                         stars = c.Double(nullable: false),
@@ -87,7 +85,7 @@
                         text = c.String(),
                         date = c.String(),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.review_id);
             
             CreateTable(
                 "dbo.Tip",
@@ -106,8 +104,7 @@
                 "dbo.User",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
-                        user_id = c.String(),
+                        user_id = c.String(nullable: false, maxLength: 128),
                         name = c.String(),
                         review_count = c.Int(nullable: false),
                         yelping_since = c.String(),
@@ -130,7 +127,7 @@
                         compliment_writer = c.Int(nullable: false),
                         compliment_photos = c.Int(nullable: false),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.user_id);
             
         }
         

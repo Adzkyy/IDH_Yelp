@@ -23,7 +23,7 @@ namespace JsonDbSetConverter.Deserialization
                 int counter = 0;
                 int recordLoaded = 0;
 
-                while (jsonReader.Read() && recordLoaded < 50000)
+                while (jsonReader.Read())
                 {
                     var jsonObject = serializer.Deserialize<Tip>(jsonReader);
                     context.Tips.Add(jsonObject);

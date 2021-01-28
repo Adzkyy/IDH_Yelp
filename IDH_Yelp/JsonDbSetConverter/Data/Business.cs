@@ -10,8 +10,7 @@ namespace JsonDbSetConverter.Data
 {
     public class Business
     {
-        [Key] 
-        public int Id { get; set; }
+        [Key]
         public string business_id { get; set; }
         public string name { get; set; }
         public string address { get; set; }
