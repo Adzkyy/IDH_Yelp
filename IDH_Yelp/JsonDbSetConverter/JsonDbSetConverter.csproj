@@ -69,12 +69,12 @@
     <Compile Include="Deserialization\ReviewDeserializator.cs" />
     <Compile Include="Deserialization\TipDeserializator.cs" />
     <Compile Include="Helpers\CursorHelper.cs" />
-    <Compile Include="Migrations\202101271856322_InitV2.cs" />
-    <Compile Include="Migrations\202101271856322_InitV2.designer.cs">
-      <DependentUpon>202101271856322_InitV2.cs</DependentUpon>
+    <Compile Include="Deserialization\UserDeserializator.cs" />
+    <Compile Include="Migrations\202101280008443_InitMigration_v1.cs" />
+    <Compile Include="Migrations\202101280008443_InitMigration_v1.designer.cs">
+      <DependentUpon>202101280008443_InitMigration_v1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Deserialization\UserDeserializator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,11 +83,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202101271856322_InitV2.resx">
-      <DependentUpon>202101271856322_InitV2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202101280008443_InitMigration_v1.resx">
+      <DependentUpon>202101280008443_InitMigration_v1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

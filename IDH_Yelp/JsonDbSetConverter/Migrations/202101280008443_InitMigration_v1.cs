@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitV2 : DbMigration
+    public partial class InitMigration_v1 : DbMigration
     {
         public override void Up()
         {
@@ -80,7 +80,7 @@
                         review_id = c.String(),
                         user_id = c.String(),
                         business_id = c.String(),
-                        stars = c.Int(nullable: false),
+                        stars = c.Double(nullable: false),
                         useful = c.Int(nullable: false),
                         funny = c.Int(nullable: false),
                         cool = c.Int(nullable: false),

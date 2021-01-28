@@ -17,9 +17,9 @@ namespace JsonDbSetConverter
 
             try
             {
+                ReviewDeserializator.DeserializeFromPath("review", context);
                 BusinessDeserializator.DeserializeFromPath("business", context);
                 UserDeserializator.DeserializeFromPath("user", context);
-                ReviewDeserializator.DeserializeFromPath("review", context);
                 CheckInDeserializator.DeserializeFromPath("checkin", context);
                 TipDeserializator.DeserializeFromPath("tip", context);
             }

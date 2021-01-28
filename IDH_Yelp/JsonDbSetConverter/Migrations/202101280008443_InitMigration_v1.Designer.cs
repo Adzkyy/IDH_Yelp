@@ -7,13 +7,13 @@ namespace JsonDbSetConverter.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class InitV2 : IMigrationMetadata
+    public sealed partial class InitMigration_v1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitV2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitMigration_v1));
         
         string IMigrationMetadata.Id
         {
-            get { return "202101271856322_InitV2"; }
+            get { return "202101280008443_InitMigration_v1"; }
         }
         
         string IMigrationMetadata.Source

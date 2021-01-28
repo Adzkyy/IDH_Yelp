@@ -11,7 +11,7 @@ namespace JsonDbSetConverter.Data
         [JsonIgnore]
         public string user_id { get; set; }
         public string business_id { get; set; }
-        public int stars { get; set; }
+        public double stars { get; set; }
         public int useful { get; set; }
         public int funny { get; set; }
         public int cool { get; set; }
